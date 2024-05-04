@@ -56,9 +56,9 @@ We provide our training, validation and testing dataset in the paper, as the fol
 
 | Split | Real dataset | Fake dataset                                                                                                                                                                          |
 | ----- | ------------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Train](https://eva-lab.synology.me:8001/sharing/6EkZkWYI1) | COCO         | SD2                                                                                                                                                                                   |
-| [Val](https://eva-lab.synology.me:8001/sharing/12NEnnsQ1)   | COCO         | SD2                                                                                                                                                                                   |
-| [Test](https://eva-lab.synology.me:8001/sharing/LjzEDo7R0)  | COCO, Flickr | SD2, SDXL, IF, DALLE-2, SGXL, ControlNet, DeeperForensic, Inpainting(LaMa), Inpainting(SD2), SuperRes(LTE), SuperRes(SD2), Adversarial attack, Backdoor attack, Data poisoning attack |
+| [Train](https://eva-lab.synology.me:8001/sharing/fqkyEORVz) | COCO         | SD2                                                                                                                                                                                   |
+| [Val](https://eva-lab.synology.me:8001/sharing/Ziq6pPMlH)   | COCO         | SD2                                                                                                                                                                                   |
+| [Test](https://eva-lab.synology.me:8001/sharing/HvpI5tbLb)  | COCO, Flickr | SD2, SDXL, IF, DALLE-2, SGXL, ControlNet, DeeperForensic, Inpainting(LaMa), Inpainting(SD2), SuperRes(LTE), SuperRes(SD2), Adversarial attack, Backdoor attack, Data poisoning attack |
 
 
 
