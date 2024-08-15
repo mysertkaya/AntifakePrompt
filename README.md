@@ -26,7 +26,7 @@ Deep generative models can create remarkably photorealistic fake images while ra
 ### Environment installation
 
 ```
-git clone https://github.com/nctu-eva-lab/AntifakePrompt
+[Clone this repository]
 cd AntifakePrompt
 pip install -e .
 ```
