@@ -1,5 +1,5 @@
-# COCO+SD2 (150k)
-gdown 1fu8oxPI0eXrqtlgYKg00SfgXC-jZVCaT
+# COCO+SD3 (150k)
+gdown 1EUnVG4OZZPXeOyWaa5P590yCKGH-nunQ
 
-# COCO+SD2+LaMa (180k)
-gdown 1bltqH3KPT03ypb49c4bs0VXKsaY6lKb7
+# COCO+SD3+LaMa (180k)
+gdown 1qnZfCknNHgC-Nhlwbab9Jg3x9sOof3gG
