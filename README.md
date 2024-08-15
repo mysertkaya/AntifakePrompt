@@ -45,10 +45,10 @@ sh download_checkpoints.sh
 ```
 The downloaded checkpoints will be saved in `ckpt`.
 
-| Checkpoint name                                                                                                       | Training dataset  | Average Acc. (%) |
-| --------------------------------------------------------------------------------------------------------------------- |:----------------- | ---------------- |
-| [COCO_150k_SD3_SD2IP.pth](https://drive.google.com/file/d/1EUnVG4OZZPXeOyWaa5P590yCKGH-nunQ/view?usp=drive_link)      | COCO + SD3        | 91.81            |
-| [COCO_150k_SD3_SD2IP_lama.pth](https://drive.google.com/file/d/1qnZfCknNHgC-Nhlwbab9Jg3x9sOof3gG/view?usp=drive_link) | COCO + SD3 + LaMa | 94.50            |
+| Checkpoint name                                                                                                       |      Training dataset     | Average Acc. (%) |
+| --------------------------------------------------------------------------------------------------------------------- |:------------------------- | ---------------- |
+| [COCO_150k_SD3_SD2IP.pth](https://drive.google.com/file/d/1EUnVG4OZZPXeOyWaa5P590yCKGH-nunQ/view?usp=drive_link)      | COCO + SD2IP + SD3        | 91.81            |
+| [COCO_150k_SD3_SD2IP_lama.pth](https://drive.google.com/file/d/1qnZfCknNHgC-Nhlwbab9Jg3x9sOof3gG/view?usp=drive_link) | COCO + SD2IP + SD3 + LaMa | 94.50            |
 
 ### Dataset
 We provide our training, validation and testing dataset in the paper, as the following table shows.
@@ -56,9 +56,9 @@ We provide our training, validation and testing dataset in the paper, as the fol
 
 | Split | Real dataset | Fake dataset                                                                                                                                                                          |
 | ----- | ------------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Train](https://eva-lab.synology.me:8001/sharing/fqkyEORVz) | COCO         | SD2                                                                                                                                                                                   |
-| [Val](https://eva-lab.synology.me:8001/sharing/Ziq6pPMlH)   | COCO         | SD2                                                                                                                                                                                   |
-| [Test](https://eva-lab.synology.me:8001/sharing/HvpI5tbLb)  | COCO, Flickr | SD2, SDXL, IF, DALLE-2, SGXL, ControlNet, DeeperForensic, Inpainting(LaMa), Inpainting(SD2), SuperRes(LTE), SuperRes(SD2), Adversarial attack, Backdoor attack, Data poisoning attack |
+| [Train](https://eva-lab.synology.me:8001/sharing/U4bPfeYvL) | COCO         | SD2IP + SD3                                                                                                                                                                                   |
+| [Val](https://eva-lab.synology.me:8001/sharing/DrLcCdiss)   | COCO         | SD2IP + SD3                                                                                                                                                                                   |
+| [Test](https://eva-lab.synology.me:8001/sharing/QSdwPi5Gx)  | COCO, Flickr | SD2, SD3, SDXL, IF, DALLE-2, DALLE-3, playground v2.5, DiffusionDB, SGXL, GLIDE, ControlNet, DeeperForensic, DFDC, FaceForensics++, Inpainting(LaMa), Inpainting(SD2), SuperRes(LIIF), SuperRes(SD2), Adversarial attack, Backdoor attack, Data poisoning attack |
 
 
 
